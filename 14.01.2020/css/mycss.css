@@ -1,0 +1,188 @@
+p{/*обращение по имени тега*/
+    color:red;/*Отвечает за цвет текста*/
+}
+#name1{/*обращение по Id*/
+    color:blue;
+    text-align: center;
+}
+.class1{/*обращение по классу*/
+    color:rebeccapurple;
+    background-color:yellow;
+}
+body{
+   /* background-color: pink;*/
+   /*background-image:url('../image/38222.jpg') ;
+   background-repeat: repeat;*/
+   background: yellow url('../image/20542.jpg') no-repeat right top ;
+}
+  /*CSS свойства фона используются для определения фоновых эффектов элемента.
+        Свойства CSS, используемые для установки фона:        
+        background-color устанавливает цвет заливки
+        background-image устанавливает картинку нак фон
+        background-repeat отвечает за поаторение картинки
+        background-attachment будет ли зафисирована картинка
+        background-position начальная позиция картинки
+        http://uroki-css.ru/css/css_background.php
+        */
+     
+        /*
+        Работа с текстом 
+        http://uroki-css.ru/css/css_text.php
+        
+        color	Устанавливает цвет текста
+        direction	Устанавливает направление текста/направление при вводе текста
+        letter-spacing	Увеличивает или уменьшает расстояние между символами в тексте
+        line-height	Устанавливает высоту строки
+        text-align	Указывает горизонтальное выравнивание текста
+        text-decoration	Указывает декорации, добавляемые к тексту
+        text-indent	Указывает отступ первой линии в текстовом блоке
+        text-shadow	Устанавливает эффект тени, добавляемой к тексту
+        text-transform	Контролирует регистр текста
+        unicode-bidi	 
+        vertical-align	Устанавливает вертикальное выравнивание элемента
+        white-space	Указывает как будет обрабатываться пустое пространство в элементе
+        word-spacing	Увеличивает или уменьшает расстояние между словами в тексте
+        */
+        h1 {text-decoration:overline;}
+        h2 {text-decoration:line-through;}
+        h3 {text-decoration:underline;}
+        h4 {text-decoration:blink;}/*мигание, работает не во всех браузерах*/
+
+        p{
+            font-size: 200%;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    /*Настройки шрифта
+    http://uroki-css.ru/css/css_font.php
+        font	Устанавливает все свойства шрифта в одном объявлении
+        font-family	Устанавливает семейство шрифта для текста
+        font-size	Устанавливает размер шрифта текста
+        font-style	Устанавливает стиль шрифта текста
+        font-variant	Указывает, следует или нет отображать текст в шрифте small-caps (маленькие заглавные буквы)
+        font-weight	Указывает вес шрифта
+    */
+
+    /*Настройки ссылок
+    http://uroki-css.ru/css/css_link.php
+    a:link - обычная, не посещенная ссылка
+    a:visited - ссылка, которую пользователь уже посетил
+    a:hover - ссылка, над которой находится курсор мыши
+    a:active - ссылка, на которую в данный момент кликнули
+    */
+    a:hover{
+        font-size: 25pt;
+        color: magenta;
+        background-color: mediumaquamarine;
+    }
+
+    /*Работа со списками
+    
+    list-style	Устанавливает все свойства списка в одном объявлении
+    list-style-image	Устанавливает изображение в качестве маркера пункта списка
+    list-style-position	Указывает, должны ли маркеры пункта списка появляться внутри или снаружи содержания
+    list-style-type	Указывает тип маркера пункта списка
+
+    http://uroki-css.ru/css/css_list.php
+    */
+    #myspisok{
+        /*list-style-image:url(../image/38222.jpg); */
+        list-style-type: square;
+    }
+
+    /*Работа с таблицами в Css
+    http://uroki-css.ru/css/css_table.php
+    */
+
+    table{
+        border-collapse: collapse;/*убирает двойные рамки в таблице*/
+    }
+    #table1, tr, td, th {
+        border: 1px solid black;
+        /*border-width: 1px;
+        border-style: dashed;
+        border-color: brown;*/
+    }
+    th{
+        color: brown;
+        background-color: cornflowerblue;
+    }
+    /*Настройка блоков
+        http://uroki-css.ru/css/css_boxmodel.php
+
+        Все CSS Свойства Границы
+Свойство	Описание
+border	Устанавливает все свойства границы в одном объявлении
+border-bottom	Устанавливает все свойства нижней границы в одном объявлении
+border-bottom-color	Устанавливает цвет нижней границы
+border-bottom-style	Устанавливает стиль нижней границы
+border-bottom-width	Устанавливает ширину нижней границы
+border-color	Устанавливает цвет четырех границ
+border-left	Устанавливает все свойства левой границы в одном объявлении
+border-left-color	Устанавливает цвет левой границы
+border-left-style	Устанавливает стиль левой границы
+border-left-width	Устанавливает ширину левой границы
+border-right	Устанавливает все свойства правой границы в одном объявлении
+border-right-color	Устанавливает цвет правой границы
+border-right-style	Устанавливает стиль правой границы
+border-right-width	Устанавливает ширину правой границы
+border-style	Устанавливает стиль четырех границ
+border-top	Устанавливает все свойства верхней границы в одном объявлении
+border-top-color	Устанавливает цвет верхней границы
+border-top-style	Устанавливает стиль верхней границы
+border-top-width	Устанавливает ширину верхней границы
+border-width	Устанавливает ширину четырех границ
+    */
+    .mydiv1{
+        width: 200px;
+        height: 400px;
+        border: 1px solid black;
+       /* border-left:  5px brown;
+        border-right: 8px yellow;*/
+        padding: 50px; /*внутренний отступ*/
+        margin: 150px; /*внешний отступ*/
+    }
+
+    #table1 tr th{
+        background-color: violet;
+    }
+
+
+    /*
+    
+    Высота и ширина обьектов
+    http://uroki-css.ru/css/css_dimension.php
+
+    height	Устанавливает высоту элемента	auto
+    max-height	Устанавливает максимальную высоту элемента	none
+    max-width	Устанавливает максимальную ширину элемента	none
+    min-height	Устанавливает минимальную высоту элемента	высота
+    min-width	Устанавливает минимальную ширину элемента	ширина
+    width	Устанавливает ширину элемента	auto
+
+    
+    */
+
+   #myspisok li {
+      display: inline; 
+   }
+   #table1{
+       /*visibility: hidden;*//*скрывает олбьект, но место
+        на странице под него остается*/
+      display: none;/*удаляет обьект со траницы*/
+   }
+
+   p.pos_fixed{
+       position: absolute;
+       top: 100px;
+       right: 110px;
+      /* float: right;*//*обтекание обьекта*/
+   }
+
+   .myimg{
+       width: 150px;
+       height: 150px;
+       float: right;
+       margin: 10px;
+
+   }

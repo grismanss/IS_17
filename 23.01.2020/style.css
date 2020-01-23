@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: yellow url(img/back_all.jpg) repeat-x;
+    color: #333333;
+    font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:visited{
+    text-decoration: none;
+    color: white; 
+}
+#container{
+    margin: 0 auto;
+    background: #ffffff;
+    width: 786px;
+    text-align: left;
+}
+#header{
+    background: #ffffff;
+	height: 306px;
+	text-align: left;
+}
+#menu, #menu2{
+    border-left: 2px solid  #ffffff;
+    width: 779px;
+    height: 80px;
+    background: url(img/header_top.gif) repeat-x;
+}
+#menu a{
+    float: left;
+    width: 99px;
+    height: 46px;
+    display: block;
+    text-align: center;
+	text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+	padding-top: 35px;
+}
+#menu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#logo{
+    background: white url(img/big_pic.jpg) no-repeat;
+    width: 738px;
+    height: 146px;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 40px;
+    border-left: 4px solid #ffffff;
+}
+#logo h1{
+    text-decoration: none;
+	text-transform: lowercase;/*lowercase
+    Все символы текста становятся строчными (нижний регистр).*/
+	font-style: italic;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+#logo h2{
+    text-decoration: none;
+	text-transform: lowercase;/*lowercase
+    Все символы текста становятся строчными (нижний регистр).*/
+	font-style: italic;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+#left{
+    float: left;
+	padding: 10px;
+	width: 237px;
+	padding-right: 10px;
+}
+#right{
+    float: left;
+    width: 500px;
+    padding-right: 10px;
+}
+#right h2{
+    margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: red;
+}
+#left h3{
+    width: 225px;
+    height: 25px; 
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: url(img/title.gif) no-repeat;
+}
+#left ul{
+    margin: 0;
+	padding: 10px;
+	list-style: none;
+	width: 100px;
+    font-size: 18px;
+}
+#left ul li a{
+    display: block;
+	text-decoration: none;
+	color: #ffffcc;
+	background: #ff9900;
+	padding: 5px;
+	border: 1px solid gold;
+    border-bottom: 0;
+    margin-top: 15px;
+}
+#right img{
+    padding: 20px;
+}
+
+
+#footer{
+    height: 44px;
+    padding-top: 20px;
+    background: url(img/footer.gif) repeat-x;
+    border-top: 5px solid #A6640E;
+    clear: both;/*both
+    Отменяет обтекание элемента одновременно с правого и левого края. 
+    Это значение рекомендуется устанавливать, когда 
+    требуется снять обтекание элемента, но неизвестно точно с какой стороны.*/
+}
+#footer p{
+    margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+#footer a {
+	color: #ffffff;
+}
+#left li ul{
+    position: absolute;
+    left: 90px;
+    top: 0;
+	display: none;
+}
+#left li:hover ul {
+	display: block;
+} 
+#left ul li {
+	position: relative;
+	margin-bottom:20px;
+} 

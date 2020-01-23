@@ -1,0 +1,74 @@
+.container{
+    background-color: burlywood;
+    width: 1000px;
+    overflow: hidden;/*отвечасет за полосы прокрутки*/
+    margin: 0 auto;/*устанавливает поля для 
+    контейнира и центрует его по середине*/
+}
+
+.header{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: crimson;
+    margin-top: 20px;
+    padding: 20px;
+    width: 920px;
+    height: 130px;
+    color: darkblue;
+    text-align: center;
+    border-radius: 7px;/*скругление углов*/
+    -moz-border-radius: 7px;/* для IE*/
+    -webkit-border-radius: 7px;/* для IE*/
+}
+.menu{
+    overflow: hidden;
+    margin: 0 auto;
+    color: darkblue;
+    width: 920px;
+    height: 30px;
+    padding: 0 20px 40px 20px;
+    background-color: crimson;
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 7px;/*скругление углов*/
+    -moz-border-radius: 7px;/* для IE*/
+    -webkit-border-radius: 7px;/* для IE*/
+}
+.menu2{
+    float: left;
+    background-color: crimson;
+    width: 180px;
+    height: 660px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: left;
+    color: darkblue;
+}
+.content{
+    float:right;
+    background-color: crimson;
+    width: 680px;
+    height: 660px;
+    margin:20px 20px 20px 0;
+    padding: 20px;	
+    border-radius: 7px;
+    text-align: center;
+    color: darkblue;
+}
+.footer{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: crimson;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px 40px 20px;
+    width: 920px;
+    height: 30px;
+    color: darkblue;
+    text-align: center;
+    border-radius: 7px;/*скругление углов*/
+    -moz-border-radius: 7px;/* для IE*/
+    -webkit-border-radius: 7px;/* для IE*/
+}
+
