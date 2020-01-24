@@ -1,0 +1,332 @@
+body{
+    background: #ffffff;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    
+}
+.header{
+    padding: 1.3em 0em;
+   
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+    margin-top: 0.82em;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li.active a{
+    color: #ffffff;
+	background: #d0a5a5;
+}
+.nav ul li a{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    display: block;
+	font-size: 1em;
+	color: #444;
+    padding: 0.5em 1em;
+    transition: 0.9s;/*замедленный эффект появления блока*/
+    -webkit-transition: 0.9s;
+	-moz-transition: 0.9s;
+	-o-transition: 0.9s;
+}
+.nav ul li a:hover{
+    color: #ffffff;
+	background: #d0a5a5;
+}
+.image_bg{
+    background: url(img/html_coding_banner.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.text{
+    padding: 20% 0%;
+}
+.text h2 {
+    color: #FFF;
+	font-size: 3em;
+	font-weight: 700em;
+	z-index: 10;
+	text-align: center;
+	position: relative; /* относительное позиционирование */
+    margin-top: -140px;
+}
+.text p {
+	color: #FFF;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 1.5em auto;
+	width: 77%;
+	font-weight: 200em;
+	line-height: 1.4em;
+}
+.da_butt {
+    position: absolute; /* абсолютное позиционирование */
+    left: 60%; top: 55%;  /* отступы от краев браузера */
+}	
+.text .da_butt:hover
+{
+	background:#d0a5a5;
+}
+.butt-img{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 2em auto 1em;
+	background: url(img/html_coding_buttonimg.png);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	position: relative; /* абсолютное позиционирование */
+    left: 210px; top: 130px;  /* отступы от родителя */
+	
+}
+.butt-img:hover{
+    width: 50px;
+	height: 50px;
+    display: block;
+    background: url(img/html_coding_buttonimgh.png);
+}
+
+.text .da_butt{
+    background-color: #a97b7b;
+	display: block;
+	color: #FFF;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin: 0 auto;
+	width: 10%;
+	text-align: center;
+	padding: 1em 2em;
+}
+
+.container h2{
+    color:#4D4D4D;
+	font-size: 2em;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.container p{
+	color:#444444;
+	font-size: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+.gallery{
+	margin-top: 4% 0%;
+}
+.gallery1 {
+	padding: 4em 0em;
+}
+.container{
+    position: relative;
+    transition: all 1s ease;
+}
+#filters {
+	margin: 2% auto;
+	padding: 0;
+	list-style: none;
+	width: 82%;
+}
+#filters li {
+	float:left;
+	margin-left: 17px;
+}
+#filters li span {
+	display: block;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #fff;
+	background:#d0a5a5;
+	cursor: pointer;
+	text-transform:uppercase;
+	font-weight: 600em;
+}
+#filters li span:hover
+{
+	background:#a97b7b;
+}
+#filters li span.active {
+	background:#a97b7b;
+	color:#fff;
+}
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width: 19%;
+	margin: 0% 3%;
+	float: left;
+}
+.portfolio-wrapper {
+	position: relative !important;
+	cursor:pointer;
+}
+.portfolio img {
+	max-width:100%;
+	position: relative;
+	opacity: 5;
+	transition: all 300ms!important;
+	-webkit-transition: all 300ms!important;
+	-moz-transition: all 300ms!important;
+}
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+		
+	-webkit-transition: all 0.9s ease-in-out;
+	-moz-transition: all 0.9s ease-in-out;
+	-o-transition: all 0.9s ease-in-out;
+	-ms-transition: all 0.9s ease-in-out;
+	transition: all 0.9s ease-in-out;
+}
+
+.ch-img-1 { 
+	background-image: url(http://europug.eu/images/camera.png);
+}
+
+.ch-img-2 { 
+	background-image: url(http://europug.eu/images/chat.png);
+}
+
+.ch-img-3 { 
+	background-image: url(http://europug.eu/images/fire.png);
+}
+.ch-img-4 { 
+	background-image: url(http://europug.eu/images/headphone.png);
+}
+
+.ch-img-5{ 
+	background-image: url(http://europug.eu/images/note.png) ;
+}
+
+.ch-img-6 { 
+	background-image: url(http://europug.eu/images/loop.png);
+}
+.ch-img-7 { 
+	background-image: url(http://europug.eu/images/tape.png);
+}
+
+.ch-img-8 { 
+	background-image: url(http://europug.eu/images/icon5.png) ;
+}
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden; /*for a smooth font */
+
+}
+.ch-info img
+{
+	width:33px;
+	height:34px;
+	margin-top:18%;
+}
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 15px;
+	padding: 15px 0 0 0;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;l
+	letter-spacing: 1px;
+	padding-top: 4px;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 110px rgba(199,91,91, 0.8),
+		inset 0 0 0 16px rgba(255,255,255,0.8),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);	
+}
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 176px;
+	height: 180px;
+	display: inline-block;
+	margin: 20px;
+}
