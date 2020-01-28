@@ -1,0 +1,45 @@
+
+body{
+    background: #f3f2f3;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+#container{
+    background-color: #ffff;
+    margin: 60px auto;
+    width: 900px;
+    height: 1020px;
+
+}
+
+#header{
+    background-color: #838383;
+    height: 200px;
+    width: 900px;
+}
+#navigation{
+    background-color: blue;
+    width: 900px;
+    height: 20px;
+}
+#menu{
+    background-color: brown;
+    float: left;
+    width: 200px;
+    height: 624px;
+}
+#content{
+    background-color: chocolate;
+    width: 900px;
+    height: 624px;
+}
+#footer{
+    background-color: cornflowerblue;
+    height: 180px;
+    width: 900px;
+}
+
+
+
+
